@@ -1,2 +1,2 @@
 # voidfile
-all void my configs  and  programs 
+all void my configs  and  programs  and docker 
