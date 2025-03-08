@@ -1,0 +1,38 @@
+vim9script
+
+compiler tex
+
+def Compile()
+    w
+    cd %:p:h
+    silent make
+    if v:shell_error
+        echohl ErrorMsg | echo "Compilation failed!" | echohl None
+    else
+        echo "Compilation successful!"
+    endif
+    cd ~
+    cwindow
+    redraw!  
+enddef
+def OnError(channelname: channel, msg: string)
+    echoerr "proccess has finched with error " .. msg
+enddef
+
+def Openpdf() 
+    var proc = "zathura"
+    var optc = "-c"
+    var path_config = "~/.config/zathura/synctex"
+    var opta = "--synctex-forward"
+    var optb = line('.') .. ":" .. col('.') .. ":" .. expand('%:p')
+    var pdf_path = expand('%:p:r') .. ".pdf"
+    var cmd = [proc, optc, path_config, pdf_path, opta, optb]
+    job_start(cmd, {"err_cb": OnError})
+
+enddef
+
+nnoremap <buffer> <localleader>c <ScriptCmd>Compile()<LF>
+nnoremap <buffer> <localleader>r <ScriptCmd>Openpdf()<LF>
+nnoremap <buffer> <localleader>s :so /home/youcef/.vim/ftplugin/tex.vim <LF>  # Source tex.vim
+nnoremap <buffer> <localleader>q :copen<CR>  # Open quickfix list
+

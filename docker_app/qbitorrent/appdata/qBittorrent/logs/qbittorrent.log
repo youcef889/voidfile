@@ -1,0 +1,34 @@
+(N) 2025-03-07T14:31:42 - qBittorrent v5.0.4 started. Process ID: 149
+(N) 2025-03-07T14:31:42 - Using config directory: /config/qBittorrent
+(N) 2025-03-07T14:31:42 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2025-03-07T14:31:42 - Peer ID: "-qB5040-"
+(I) 2025-03-07T14:31:42 - HTTP User-Agent: "qBittorrent/5.0.4"
+(I) 2025-03-07T14:31:42 - Distributed Hash Table (DHT) support: ON
+(I) 2025-03-07T14:31:42 - Local Peer Discovery support: ON
+(I) 2025-03-07T14:31:42 - Peer Exchange (PeX) support: ON
+(I) 2025-03-07T14:31:42 - Anonymous mode: OFF
+(I) 2025-03-07T14:31:42 - Encryption support: ON
+(I) 2025-03-07T14:31:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2025-03-07T14:31:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2025-03-07T14:31:42 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2025-03-07T14:31:42 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2025-03-07T14:31:42 - Successfully listening on IP. IP: "::1". Port: "TCP/6881"
+(I) 2025-03-07T14:31:42 - Successfully listening on IP. IP: "::1". Port: "UTP/6881"
+(W) 2025-03-07T14:31:42 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-03-07T14:31:42 - Using built-in WebUI.
+(W) 2025-03-07T14:31:42 - Couldn't load WebUI translation for selected locale (C).
+(N) 2025-03-07T14:31:42 - WebUI: Now listening on IP: *, port: 8080
+(I) 2025-03-07T14:31:45 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Mar 1 02:21:54 2025.
+(I) 2025-03-07T14:31:45 - Successfully updated IP geolocation database.
+(I) 2025-03-07T14:31:46 - Detected external IP. IP: "197.202.248.225"
+(N) 2025-03-07T14:32:41 - WebAPI login success. IP: ::ffff:172.18.0.1
+(N) 2025-03-07T14:33:20 - Added new torrent. Torrent: "various-nature-images-zip"
+(N) 2025-03-07T14:33:20 - Added new torrent. Torrent: "ultra-hd-4klandscapes-wallpapers"
+(N) 2025-03-07T14:34:43 - Torrent download finished. Torrent: "various-nature-images-zip"
+(N) 2025-03-07T14:37:13 - Torrent removed. Torrent: "various-nature-images-zip"
+(N) 2025-03-07T14:37:13 - Torrent content removed. Torrent: "various-nature-images-zip"
+(N) 2025-03-07T14:41:42 - Torrent download finished. Torrent: "ultra-hd-4klandscapes-wallpapers"
+(N) 2025-03-07T14:44:04 - qBittorrent termination initiated
+(N) 2025-03-07T14:44:04 - Saving resume data completed.
+(N) 2025-03-07T14:44:05 - BitTorrent session successfully finished.
+(N) 2025-03-07T14:44:05 - qBittorrent is now ready to exit

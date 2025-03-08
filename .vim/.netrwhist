@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/youcef/.git'
+let g:netrw_dirhist_6='/home/youcef/.config'
+let g:netrw_dirhist_5='/home/youcef/.local/share/zathura'
+let g:netrw_dirhist_4='/home/youcef/Programs/dwm'
+let g:netrw_dirhist_3='/home/youcef/project_flask/flask-blog-app/flask-blog-app/app'
+let g:netrw_dirhist_2='/home/youcef/project_flask/flask-blog-app/flask-blog-app'
+let g:netrw_dirhist_1='/home/youcef/project_flask/flask-blog-app/flask-blog-app/app'
+let g:netrw_dirhist_0='/home/youcef/project_flask/flask-blog-app/flask-blog-app/app/templates'
+let g:netrw_dirhist_9='/home/youcef/project_flask/flask-blog-app/flask-blog-app/app'
+let g:netrw_dirhist_8='/home/youcef/project_flask/flask-blog-app/flask-blog-app/app/templates'

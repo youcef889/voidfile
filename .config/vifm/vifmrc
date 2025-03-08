@@ -1,0 +1,8 @@
+" Open videos with mpv
+filetype *.mp4,*.mkv,*.avi,*.webm,*.mov,*.flv,*.wmv
+    \ mpv -- "$f"
+
+" Open PDFs with zathura
+filetype *.pdf
+    \ zathura "$f"
+

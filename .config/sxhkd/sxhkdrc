@@ -1,0 +1,76 @@
+# Volume Control
+XF86AudioMute
+    amixer set Master toggle >/dev/null 2>&1
+
+
+XF86AudioLowerVolume
+    amixer set Master 5%- >/dev/null 2>&1
+
+
+XF86AudioRaiseVolume
+    amixer set Master 5%+ >/dev/null 2>&1
+
+
+# Microphone mute
+XF86AudioMicMute
+    amixer set Capture toggle >/dev/null 2>&1
+
+
+# Brightness Control
+XF86MonBrightnessDown
+    brightnessctl set 10%- >/dev/null 2>&1
+
+
+XF86MonBrightnessUp
+    brightnessctl set +10% >/dev/null 2>&1
+
+
+# Additional Keys
+# Fn + F8: External display toggle (use xrandr or other tool)
+XF86Display
+    xrandr --output HDMI-1 --auto --right-of eDP-1
+
+# Fn + F9: Search (dmenu or rofi)
+XF86Search
+    dmenu_run
+
+# Fn + F10: Keyboard backlight increase (depends on hardware)
+XF86KbdBrightnessUp
+    # Adjust based on your system's keybinding for keyboard backlight
+
+# Fn + Escape: Toggle Fn lock (no direct way to bind)
+# Skip or use BIOS settings for Fn Lock
+
+# Fn + Print Screen: Toggle Wi-Fi using nmcli
+# Fn + Insert: Sleep
+
+# Fn + Right Arrow: End
+XF86Forward
+    xdotool key End >/dev/null 2>&1
+
+
+# Fn + Left Arrow: Home
+XF86Back
+    xdotool key Home >/dev/null 2>&1
+
+# Custme Script using  dmenu
+super + w
+     firefox
+
+super + shift + space
+     $HOME/bin/exit.sh
+
+
+# Switch to English
+super + 1
+    setxkbmap us
+
+# Switch to Arabic
+super + 2
+    setxkbmap ara
+
+# Switch to French
+super + 3
+    setxkbmap fr
+
+     
