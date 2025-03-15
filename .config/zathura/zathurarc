@@ -14,6 +14,7 @@ set scroll-page-aware "true"
 set scroll-full-overlap 0.01
 set scroll-step 100
 
+set selection-clipboard "clipborad" 
 #zoom settings
 set zoom-min 10
 set guioptions ""
