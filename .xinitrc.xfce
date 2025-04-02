@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Set up fonts
+xset +fp ~/.local/share/fonts
+xset fp rehash
+
+# Start XFCE
+exec startxfce4
+

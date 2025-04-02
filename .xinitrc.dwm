@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Set up fonts
+xset +fp ~/.local/share/fonts
+xset fp rehash
+
+# Start DWM-specific background services
+~/bin/wallpaper.sh &
+sxhkd &
+slstatus &
+picom --config ~/.config/picom.conf &
+
+exec dwm
+
